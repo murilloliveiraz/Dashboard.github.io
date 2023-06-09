@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="">
+                    <h2>EGA<span class="danger">TOR</span></h2>
+                </div>
+
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-sharp">
+                        close
+                        </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        grid_view
+                        </span>
+                        <h3>Dashboard</h3>
+                </a>
+                
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        person_outline
+                        </span>
+                        <h3>Clientes</h3>
+                </a>
+
+                <a href="#" class="active">
+                    <span class="material-symbols-sharp">
+                        receipt_long
+                        </span>
+                        <h3>Compras</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        insights
+                        </span>
+                        <h3>Analises</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        mail_outline
+                        </span>
+                        <h3>Mensagens</h3>
+                        <span class="message-count">26</span>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        inventory
+                        </span>
+                        <h3>Produtos</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        report_gmailerrorred
+                        </span>
+                        <h3>Avisos</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        settings
+                        </span>
+                        <h3>Configurações</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        add
+                        </span>
+                        <h3>Add Produto</h3>
+                </a>
+                
+                <a href="#">
+                    <span class="material-symbols-sharp">
+                        logout
+                        </span>
+                        <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+
+        <main>
+            <h1>Dashboard</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-symbols-sharp"> analytics</span>
+                    <div class="middle">
+                        <div class="lef">
+                            <h3>Total de Vendas</h3>
+                            <h1>$25,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Ultimas 24 Horas</small>
+                </div>
+                
+                <div class="expenses">
+                    <span class="material-symbols-sharp"> bar_chart</span>
+                    <div class="middle">
+                        <div class="lef">
+                            <h3>Total Gasto</h3>
+                            <h1>$10,864</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Ultimas 24 Horas</small>
+                </div>
+                
+                <div class="income">
+                    <span class="material-symbols-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="lef">
+                            <h3>Renda Total</h3>
+                            <h1>$25,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Ultimas 24 Horas</small>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <script defer src="./assets/js/script.js"></script>
+</body>
+</html>
